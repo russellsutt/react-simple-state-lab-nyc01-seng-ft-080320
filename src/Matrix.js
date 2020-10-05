@@ -23,5 +23,5 @@ export default class Matrix extends Component {
 Matrix.defaultProps = {
   values: (() => {
     const baseRow = ['#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00']
-    return
+    return (new Array(10))
 }
