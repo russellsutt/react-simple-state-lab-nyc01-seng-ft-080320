@@ -11,9 +11,9 @@ export default class Cell extends Component {
     }
 
     clickHandler = () => {
-        this.setState({
+        this.setState {
             color: '#333'
-        })
+        }
     }
 
     render() {
