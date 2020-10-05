@@ -24,4 +24,5 @@ Matrix.defaultProps = {
   values: () => {
     const baseRow = ['#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00']
     return (new Array(10).fill(baseRow))
+  }
 }
